@@ -25,7 +25,9 @@
 
 </div>
 
-<img src="terminal-intro.svg" width="100%" alt="Animated terminal: typing whoami and showing Mohamed Abdrabou's cybersecurity focus" />
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=1400&color=00FF75&center=true&vCenter=true&width=850&height=90&lines=%E2%94%8C%E2%94%80%5Bm0x1%40security-lab%5D%E2%94%80%5B~%5D+%3E+whoami;Mohamed+Abdrabou+%E2%80%94+Cybersecurity+Student+%7C+SOC+Analyst+in+the+making" alt="Animated terminal typing whoami and displaying Mohamed Abdrabou's cybersecurity focus" />
+</p>
 
 ## `> ABOUT_ME`
 
