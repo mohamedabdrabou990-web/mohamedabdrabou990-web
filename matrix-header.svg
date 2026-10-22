@@ -1,32 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-label="Animated green matrix rain">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Neon matrix rain with animated cyber arrows">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#020805"/>
-      <stop offset=".55" stop-color="#06170c"/>
-      <stop offset="1" stop-color="#020805"/>
-    </linearGradient>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
-      <path d="M48 0H0V48" fill="none" stroke="#00ff66" stroke-opacity=".08" stroke-width="1"/>
-    </pattern>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#020507"/><stop offset=".5" stop-color="#07130d"/><stop offset="1" stop-color="#08051b"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#00ff75"/><stop offset=".5" stop-color="#00e5ff"/><stop offset="1" stop-color="#bc4dff"/></linearGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#00ff75" stroke-opacity=".1"/></pattern>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="white" stop-opacity="1"/><stop offset=".42" stop-color="white" stop-opacity=".94"/><stop offset=".72" stop-color="white" stop-opacity=".48"/><stop offset="1" stop-color="white" stop-opacity="0"/></linearGradient>
+    <mask id="fade-down"><rect width="1200" height="300" fill="url(#fade)"/></mask>
   </defs>
-  <rect width="1200" height="240" rx="18" fill="url(#bg)"/>
-  <rect width="1200" height="240" rx="18" fill="url(#grid)"/>
-  <g fill="#00ff66" font-family="monospace" font-size="17" opacity=".42">
-    <text x="42" y="0">01001011<tspan x="42" dy="22">&gt;_</tspan><tspan x="42" dy="22">11001010</tspan><tspan x="42" dy="22">10110101</tspan><tspan x="42" dy="22">00101100</tspan><tspan x="42" dy="22">11100010</tspan><tspan x="42" dy="22">01010111</tspan><animateTransform attributeName="transform" type="translate" values="0 0;0 95;0 0" dur="5s" repeatCount="indefinite"/></text>
-    <text x="180" y="-30">10110101<tspan x="180" dy="22">01101001</tspan><tspan x="180" dy="22">&gt;&gt;</tspan><tspan x="180" dy="22">10011010</tspan><tspan x="180" dy="22">01011100</tspan><tspan x="180" dy="22">11001010</tspan><animateTransform attributeName="transform" type="translate" values="0 0;0 125;0 0" dur="7s" repeatCount="indefinite"/></text>
-    <text x="330" y="-10">00110101<tspan x="330" dy="22">11001010</tspan><tspan x="330" dy="22">01001101</tspan><tspan x="330" dy="22">&gt;_</tspan><tspan x="330" dy="22">10101010</tspan><tspan x="330" dy="22">01110001</tspan><animateTransform attributeName="transform" type="translate" values="0 0;0 110;0 0" dur="6s" repeatCount="indefinite"/></text>
-    <text x="500" y="-25">11010010<tspan x="500" dy="22">01010101</tspan><tspan x="500" dy="22">&gt;&gt;</tspan><tspan x="500" dy="22">10100110</tspan><tspan x="500" dy="22">00110110</tspan><tspan x="500" dy="22">01001011</tspan><animateTransform attributeName="transform" type="translate" values="0 0;0 130;0 0" dur="8s" repeatCount="indefinite"/></text>
-    <text x="700" y="-5">10101001<tspan x="700" dy="22">&gt;_</tspan><tspan x="700" dy="22">11010100</tspan><tspan x="700" dy="22">01001110</tspan><tspan x="700" dy="22">11100101</tspan><tspan x="700" dy="22">00101011</tspan><animateTransform attributeName="transform" type="translate" values="0 0;0 115;0 0" dur="5.5s" repeatCount="indefinite"/></text>
-    <text x="900" y="-35">01011010<tspan x="900" dy="22">10100101</tspan><tspan x="900" dy="22">&gt;&gt;</tspan><tspan x="900" dy="22">00110101</tspan><tspan x="900" dy="22">11001010</tspan><tspan x="900" dy="22">01010101</tspan><animateTransform attributeName="transform" type="translate" values="0 0;0 140;0 0" dur="7.5s" repeatCount="indefinite"/></text>
-    <text x="1080" y="-10">11001010<tspan x="1080" dy="22">01010110</tspan><tspan x="1080" dy="22">&gt;_</tspan><tspan x="1080" dy="22">10100101</tspan><tspan x="1080" dy="22">00111010</tspan><tspan x="1080" dy="22">11001001</tspan><animateTransform attributeName="transform" type="translate" values="0 0;0 115;0 0" dur="6.5s" repeatCount="indefinite"/></text>
+  <g mask="url(#fade-down)">
+  <rect width="1200" height="300" rx="20" fill="url(#bg)"/><rect width="1200" height="300" rx="20" fill="url(#grid)"/>
+  <rect x="2" y="2" width="1196" height="296" rx="19" fill="none" stroke="url(#edge)" stroke-width="2" opacity=".9"/>
+  <g font-family="monospace" font-size="16" opacity=".6">
+    <text x="42" y="-10" fill="#00ff75">01001011<tspan x="42" dy="22">&gt;_</tspan><tspan x="42" dy="22">11001010</tspan><tspan x="42" dy="22">10110101</tspan><tspan x="42" dy="22">00101100</tspan><tspan x="42" dy="22">11100010</tspan><tspan x="42" dy="22">01010111</tspan><animateTransform attributeName="transform" type="translate" values="0 0;0 170;0 0" dur="5s" repeatCount="indefinite"/></text>
+    <text x="190" y="-30" fill="#00e5ff">10110101<tspan x="190" dy="22">01101001</tspan><tspan x="190" dy="22">&gt;&gt;</tspan><tspan x="190" dy="22">10011010</tspan><tspan x="190" dy="22">01011100</tspan><tspan x="190" dy="22">11001010</tspan><animateTransform attributeName="transform" type="translate" values="0 0;0 190;0 0" dur="7s" repeatCount="indefinite"/></text>
+    <text x="360" y="-20" fill="#bc4dff">00110101<tspan x="360" dy="22">11001010</tspan><tspan x="360" dy="22">01001101</tspan><tspan x="360" dy="22">&gt;_</tspan><tspan x="360" dy="22">10101010</tspan><tspan x="360" dy="22">01110001</tspan><animateTransform attributeName="transform" type="translate" values="0 0;0 180;0 0" dur="6s" repeatCount="indefinite"/></text>
+    <text x="550" y="-35" fill="#00ff75">11010010<tspan x="550" dy="22">01010101</tspan><tspan x="550" dy="22">&gt;&gt;</tspan><tspan x="550" dy="22">10100110</tspan><tspan x="550" dy="22">00110110</tspan><tspan x="550" dy="22">01001011</tspan><animateTransform attributeName="transform" type="translate" values="0 0;0 200;0 0" dur="8s" repeatCount="indefinite"/></text>
+    <text x="740" y="-15" fill="#00e5ff">10101001<tspan x="740" dy="22">&gt;_</tspan><tspan x="740" dy="22">11010100</tspan><tspan x="740" dy="22">01001110</tspan><tspan x="740" dy="22">11100101</tspan><tspan x="740" dy="22">00101011</tspan><animateTransform attributeName="transform" type="translate" values="0 0;0 185;0 0" dur="5.5s" repeatCount="indefinite"/></text>
+    <text x="930" y="-30" fill="#bc4dff">01011010<tspan x="930" dy="22">10100101</tspan><tspan x="930" dy="22">&gt;&gt;</tspan><tspan x="930" dy="22">00110101</tspan><tspan x="930" dy="22">11001010</tspan><tspan x="930" dy="22">01010101</tspan><animateTransform attributeName="transform" type="translate" values="0 0;0 190;0 0" dur="7.5s" repeatCount="indefinite"/></text>
+    <text x="1090" y="-5" fill="#00ff75">11001010<tspan x="1090" dy="22">01010110</tspan><tspan x="1090" dy="22">&gt;_</tspan><tspan x="1090" dy="22">10100101</tspan><tspan x="1090" dy="22">00111010</tspan><tspan x="1090" dy="22">11001001</tspan><animateTransform attributeName="transform" type="translate" values="0 0;0 170;0 0" dur="6.5s" repeatCount="indefinite"/></text>
   </g>
-  <path d="M0 206H1200" stroke="#00ff66" stroke-opacity=".3"/>
-  <text x="600" y="132" text-anchor="middle" fill="#00ff66" filter="url(#glow)" font-family="monospace" font-size="49" font-weight="700" letter-spacing="5">&gt; m0x1<span fill="#b6ffd0">_</span></text>
-  <text x="600" y="170" text-anchor="middle" fill="#a4ffc2" font-family="monospace" font-size="15" letter-spacing="4">DETECT  //  INVESTIGATE  //  DEFEND</text>
-  <text x="28" y="222" fill="#00ff66" font-family="monospace" font-size="12" opacity=".8">[ SYSTEM ONLINE ]</text>
-  <text x="1170" y="222" text-anchor="end" fill="#00ff66" font-family="monospace" font-size="12" opacity=".8">SECURE THE SIGNAL  ↗</text>
+  <g fill="none" stroke="url(#edge)" stroke-width="2.5" filter="url(#glow)" opacity=".9">
+    <path d="M70 224H250l18-18h68"><animate attributeName="stroke-dasharray" values="0 400;250 400;0 400" dur="4s" repeatCount="indefinite"/></path>
+    <path d="M1130 224H950l-18-18h-68"><animate attributeName="stroke-dasharray" values="0 400;250 400;0 400" dur="4s" begin=".8s" repeatCount="indefinite"/></path>
+    <path d="M112 244l13-13 13 13m824 0 13-13 13 13"/>
+  </g>
+  <text x="600" y="137" text-anchor="middle" fill="#00ff75" filter="url(#glow)" font-family="monospace" font-size="62" font-weight="700" letter-spacing="7">&gt; m0x1<span fill="#00e5ff">_</span></text>
+  <text x="600" y="174" text-anchor="middle" fill="#e2c1ff" font-family="monospace" font-size="15" letter-spacing="5">DETECT  //  INVESTIGATE  //  DEFEND</text>
+  <text x="28" y="280" fill="#00e5ff" font-family="monospace" font-size="12">[ SYSTEM ONLINE ]</text>
+  <text x="1170" y="280" text-anchor="end" fill="#bc4dff" font-family="monospace" font-size="12">SECURE THE SIGNAL  &gt;&gt;</text>
+  <circle cx="600" cy="207" r="3" fill="#00e5ff"><animate attributeName="opacity" values="1;.15;1" dur="1s" repeatCount="indefinite"/></circle>
+  </g>
 </svg>
