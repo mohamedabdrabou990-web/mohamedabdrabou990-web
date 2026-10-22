@@ -1,65 +1,68 @@
 <div align="center">
 
-# 🛡️ MOHAMED ABDRABOU
+<img src="matrix-header.svg" width="100%" alt="Animated green matrix rain banner" />
 
-### **Network Security Engineer | SOC Analyst | Red Team Specialist**
+# `m0x1` · Mohamed Abdrabou
 
-*Building Secure Infrastructure · Monitoring Threats · Breaking to Defend*
+### Cybersecurity Student · Aspiring SOC Analyst
 
----
+<p>
+  <img src="https://img.shields.io/badge/FOCUS-SOC%20ANALYST-00ff66?style=for-the-badge&labelColor=07130b" alt="Focus: SOC Analyst" />
+  <img src="https://img.shields.io/badge/MODE-DEFENSIVE%20SECURITY-00cc66?style=for-the-badge&labelColor=07130b" alt="Mode: Defensive Security" />
+</p>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com)
-[![TryHackMe](https://img.shields.io/badge/TryHackMe-22232B?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com)
-
-</div>
-
----
-
-## ⚡ About Me
-
-A versatile Cybersecurity & Network Professional operating across both offensive and defensive spectrums. Skilled in architecting resilient enterprise networks, investigating real-time security incidents in a SOC environment, and conducting adversarial red team operations to discover system vulnerabilities before malicious actors do.
-
-- 🌐 **Network Engineering:** Designing, configuring, and securing complex network topographies (VLANs, Subnetting, Routing Protocols, Firewalls).
-- 🔵 **Blue Team / SOC Ops:** Real-time log analysis, Threat Hunting, Intrusion Detection (IDS/IPS), SIEM engineering, and Traffic Analysis.
-- 🔴 **Red Team Ops:** Network Penetration Testing, Active Reconnaissance, Vulnerability Assessment, and Exploitation.
-
----
-
-## 🧰 Technical Arsenal
-
-### 🌐 Networking & Enterprise Infrastructure
-`Cisco Packet Tracer` · `Wireshark` · `GNS3` · `TCP/IP` · `OSPF` · `VLANs & Subnetting` · `VPNs` · `Fortinet`
-
-### 🔵 Blue Team & Security Operations (SOC)
-`Splunk` · `Wazuh SIEM` · `Suricata IDS` · `Snort` · `Traffic & Log Analysis` · `Threat Intelligence` · `Linux Admin (Red Hat)`
-
-### 🔴 Red Team & Offensive Security
-`Nmap` · `Metasploit` · `Burp Suite` · `Active Directory Assessment` · `Reconnaissance` · `Bash / Python Scripting`
-
----
-
-## 🔬 Featured Projects & Labs
-
-- **🛡️ Multi-VM SOC Home Lab:** Built a virtualization-based SOC analyzing enterprise datasets (BOTS) using Splunk, Wazuh, and Suricata.
-- **🌐 Enterprise Network Infrastructure:** Designed and simulated an enterprise topology featuring redundant routing, strict firewalls, and isolated VLANs.
-- **⚔️ Threat Detection & Custom Rules:** Authored custom Suricata & Snort IDS rules to detect malicious C2 traffic and stealthy network scans.
-
----
-
-## 📈 GitHub Stats
-
-<div align="center">
-
-![Mohamed's GitHub Stats](https://github-readme-stats.vercel.app/api?username=mohamedabdrabou990-web&show_icons=true&theme=tokyonight&hide_border=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mohamedabdrabou990-web&layout=compact&theme=tokyonight&hide_border=true)
+<a href="https://www.linkedin.com/in/mohamed-ashraf-abdrabou">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-00cc66?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=07130b" alt="Connect on LinkedIn" />
+</a>
 
 </div>
 
 ---
 
+```text
+┌─[m0x1@security-lab]─[~]
+└──╼ $ whoami
+     Mohamed Abdrabou — cybersecurity student focused on SOC operations
+```
+
+## `> ABOUT_ME`
+
+I'm studying **cybersecurity**, with a particular focus on becoming a **SOC Analyst**. I enjoy understanding how systems and networks work, spotting weaknesses, and helping defend environments against real-world threats.
+
+```diff
++ Network security and information security
++ Security monitoring, detection, and incident response
++ Vulnerability research and responsible bug bounty hunting
++ SQL injection and PHP application security
++ SIEM: Wazuh, Splunk, and other security tools
+```
+
+## `> TOOLKIT`
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Wazuh-SIEM-00ff66?style=flat-square&logo=wazuh&logoColor=07130b&labelColor=0b1b10" alt="Wazuh" />
+  <img src="https://img.shields.io/badge/Splunk-SIEM-00cc66?style=flat-square&logo=splunk&logoColor=white&labelColor=0b1b10" alt="Splunk" />
+  <img src="https://img.shields.io/badge/Networking-00aa55?style=flat-square&logo=cisco&logoColor=white&labelColor=0b1b10" alt="Networking" />
+  <img src="https://img.shields.io/badge/SQL_Injection-Research-00ff66?style=flat-square&logo=owasp&logoColor=white&labelColor=0b1b10" alt="SQL injection research" />
+  <img src="https://img.shields.io/badge/PHP-Security-00cc66?style=flat-square&logo=php&logoColor=white&labelColor=0b1b10" alt="PHP security" />
+</p>
+
+## `> CURRENT_MISSION`
+
+```text
+[>] Learn. Detect. Investigate. Defend.
+[>] Build stronger SOC and threat-hunting skills.
+[>] Find and responsibly report web security vulnerabilities.
+```
+
 <div align="center">
 
-*"The best defense is understanding the attack."*
+### `Stay curious. Think like an attacker. Defend like an analyst.`
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=1100&color=00FF66&center=true&vCenter=true&width=600&lines=%3E+Monitoring+the+signal+through+the+noise...;%3E+Mapping+the+network...;%3E+Finding+the+weakness...;%3E+Making+systems+safer." alt="Animated cybersecurity tagline" />
+
+<br />
+
+<a href="https://www.linkedin.com/in/mohamed-ashraf-abdrabou">Let's connect on LinkedIn ↗</a>
 
 </div>
