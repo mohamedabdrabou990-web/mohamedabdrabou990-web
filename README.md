@@ -19,11 +19,9 @@
 
 ---
 
-```text
-┌─[m0x1@security-lab]─[~]
-└──╼ $ whoami
-     Mohamed Abdrabou — cybersecurity student focused on SOC operations
-```
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=400&size=14&pause=1100&color=C9D1D9&center=false&vCenter=true&width=900&height=80&lines=%E2%94%8C%E2%94%80%5Bm0x1%40security-lab%5D%E2%94%80%5B~%5D;%E2%94%94%E2%94%80%E2%94%80%E2%95%BC+%24+whoami;Mohamed+Abdrabou+%E2%80%94+cybersecurity+student+focused+on+SOC+operations" alt="Terminal typing whoami and displaying Mohamed Abdrabou's SOC focus" />
+</p>
 
 ## `> ABOUT_ME`
 
