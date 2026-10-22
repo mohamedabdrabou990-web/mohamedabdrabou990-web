@@ -19,7 +19,7 @@
 
 ---
 
-<img src="terminal-intro.svg" width="100%" alt="Linux terminal typing whoami and keeping the result visible" />
+<img src="terminal-intro.gif" width="100%" alt="Linux terminal typing whoami and keeping the result visible" />
 
 ## `> ABOUT_ME`
 
